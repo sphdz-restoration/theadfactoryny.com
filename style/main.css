@@ -1,0 +1,27 @@
+html {
+    background: #666 url('../media/background-bricks.jpg') repeat center top;
+}
+
+body {
+    text-align: center;
+}
+
+.layout {
+    width: 907px;
+    margin: 0 auto 50px auto;
+    position: relative;
+}
+
+.layout .main_content_image {
+    display: block;
+}
+
+.contact_us_link {
+    position: absolute;
+    top: 682px;
+    left: 387px;
+}
+
+.contact_us_link img {
+    display: block;
+}

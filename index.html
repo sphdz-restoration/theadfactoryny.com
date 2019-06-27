@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>The Ad Factory: Campain Assembly, Slogan Generation, Logo Development, Jingle Creation</title>
+    <link rel="stylesheet" type="text/css" href="./style/reset.css">
+    <link rel="stylesheet" type="text/css" href="./style/main.css">
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.mailto.js"></script>
+    <script type="text/javascript">
+
+        jQuery(function () {
+
+            jQuery('.contact_us_link').hover(
+                function () {
+                    this.children[0].src = this.children[0].src.replace('.off.', '.on.');
+                },
+                function () {
+                    this.children[0].src = this.children[0].src.replace('.on.', '.off.');
+                }
+            );
+        
+			$('.email').mailto();
+
+        });
+        
+    </script>
+</head>
+<body>
+    <div class="layout">
+        <img class="main_content_image" src="media/adfactory.gif" alt="The Ad Factory" width="907" height="901">
+        <a class="contact_us_link email" href="adfactoryforyou(at)gmail.com">
+        <img src="media/contact-us.off.gif" alt="Contact Us" width="317" height="151">
+        </a>
+    </div>
+</body>
+</html>
