@@ -22,6 +22,18 @@ body {
     left: 387px;
 }
 
-.contact_us_link img {
-    display: block;
+a .off {
+	display: block;
+}
+
+a .on {
+	display: none;
+}
+
+a:hover .off {
+	display: none;
+}
+
+a:hover .on {
+	display: block;
 }
